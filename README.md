@@ -30,7 +30,7 @@ The Inventory Demand Forecasting System is an advanced analytics solution that p
 
 ## 🛠️ Technology Stack
 
-**Core Technologies**  
+**Core Libraries**  
 - <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" height="20"> Python 3.8+  
 - <img src="https://img.shields.io/badge/scikit_learn-F7931E?logo=scikit-learn&logoColor=white" height="20"> Scikit-learn  
 - <img src="https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white" height="20"> Pandas  
@@ -45,24 +45,71 @@ The Inventory Demand Forecasting System is an advanced analytics solution that p
 - <img src="https://img.shields.io/badge/Google_Colab-F9AB00?logo=google-colab&logoColor=white" height="20"> Google Colab  
 - <img src="https://img.shields.io/badge/Jupyter-F37626?logo=Jupyter&logoColor=white" height="20"> Jupyter Notebook  
 
-## 💻 Installation
+## ☁️ Google Colab Installation
 
-### Prerequisites
-- Python 3.8+
-- Google Colab account (for cloud execution)
+Run the project instantly on the cloud — no setup required!
 
-### Local Installation
-```bash
+1. **Launch Notebook**  
+   Click to open in Google Colab:  
+   [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mrhamza7/Inventory-Demand-Forecasting-System/blob/main/IDFS.ipynb)
 
-# 1️⃣ Clone repository and install dependencies
-git clone https://github.com/mrhamza7/Inventory-Demand-Forecasting-System.git
-cd Inventory-Demand-Forecasting-System
-```
-```bash
-# 2️⃣ Install dependencies
-pip install -r requirements.txt
-```
-```bash
-# 3️⃣ Run Jupyter Notebook (if local)
-jupyter notebook IDFS.ipynb
-```
+2. **Upload Your Dataset**  
+   Use the file sidebar to upload your CSV, or load the included sample dataset.
+
+3. **Run All Cells**  
+   From the menu, go to `Runtime > Run all`.
+
+> ✅ *Google Colab automatically handles all dependencies. No installation needed.*
+
+---
+
+## 📂 Sample Dataset
+
+The repository includes a sample dataset at:  
+`/data/retail_sales_dataset.csv`
+
+| Date       | Product Category | Quantity | Price per Unit | Age | Gender | Total Amount |
+|------------|------------------|----------|----------------|-----|--------|---------------|
+| 2023-01-01 | Electronics       | 5        | 500            | 35  | Male   | 2500          |
+| 2023-01-01 | Clothing          | 3        | 50             | 28  | Female | 150           |
+| 2023-01-02 | Beauty            | 8        | 25             | 42  | Female | 200           |
+| 2023-01-03 | Electronics       | 2        | 550            | 45  | Male   | 1100          |
+| 2023-01-04 | Clothing          | 6        | 45             | 31  | Female | 270           |
+
+Use this sample to test predictions and see the full forecasting flow.
+
+---
+
+## 📌 How to Use
+
+1. Open the notebook in Google Colab.
+2. Upload your sales dataset (`.csv` format).
+3. Run all cells to:
+   - Preprocess the data
+   - Train the ML model
+   - Forecast upcoming demand
+   - Visualize results
+4. Use the **Gradio interface** to make real-time predictions.
+
+---
+
+## 📝 License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
+Feel free to use, modify, and distribute with attribution.
+
+---
+
+## 🙌 Contributions
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
+
+---
+
+## 📬 Contact
+
+**Author**: [Muhammad Hamza](https://github.com/mrhamza7)  
+**Email**: hamzamr635@gmail.com
+
+---
+
