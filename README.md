@@ -55,8 +55,8 @@ The Inventory Demand Forecasting System is an advanced analytics solution that p
 ### Local Installation
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/your-username/inventory-demand-forecasting.git
-cd inventory-demand-forecasting
+gh repo clone mrhamza7/Inventory-Demand-Forecasting-System
+cd Inventory-Demand-Forecasting-System
 
 # 2️⃣ Install dependencies
 pip install -r requirements.txt
