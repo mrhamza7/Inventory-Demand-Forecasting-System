@@ -1,1 +1,1 @@
-# FintnessTracker
+# Inventory Demand Forecasting System
