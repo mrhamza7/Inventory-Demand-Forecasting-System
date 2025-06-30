@@ -1,6 +1,5 @@
 # 📦 Inventory Demand Forecasting System
 
-![Project Banner](https://via.placeholder.com/1200x400/3498db/ffffff?text=Inventory+Demand+Forecasting+System)  
 *Optimize inventory management with AI-powered demand predictions*
 
 <div align="center">
@@ -54,9 +53,16 @@ The Inventory Demand Forecasting System is an advanced analytics solution that p
 
 ### Local Installation
 ```bash
-# 1️⃣ Clone the repository
-gh repo clone mrhamza7/Inventory-Demand-Forecasting-System
-cd Inventory-Demand-Forecasting-System
 
+# 1️⃣ Clone repository and install dependencies
+git clone https://github.com/mrhamza7/Inventory-Demand-Forecasting-System.git
+cd Inventory-Demand-Forecasting-System
+```
+```bash
 # 2️⃣ Install dependencies
 pip install -r requirements.txt
+```
+```bash
+# 3️⃣ Run Jupyter Notebook (if local)
+jupyter notebook IDFS.ipynb
+```
