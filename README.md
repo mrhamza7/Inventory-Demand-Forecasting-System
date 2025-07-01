@@ -6,8 +6,8 @@
   
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/inventory-demand-forecasting/blob/main/IDFS.ipynb)
-[![GitHub Stars](https://img.shields.io/github/stars/your-username/inventory-demand-forecasting?style=social)](https://github.com/your-username/inventory-demand-forecasting)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mrhamza7/Inventory-Demand-Forecasting-System/blob/main/IDFS.ipynb)
+[![GitHub Stars](https://img.shields.io/github/stars/mrhamza7/Inventory-Demand-Forecasting-System?style=social)](https://github.com/mrhamza7/Inventory-Demand-Forecasting-System)
 
 </div>
 
